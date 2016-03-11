@@ -8,10 +8,18 @@ body {
 	font-family: sans-serif;
 }
 
+img {
+	width: 100%;
+	height: auto;
+	
+}
+
 .grid {
 	background-color:#F8B53F ;
-	
-	
+}
+
+.grid-pad {
+	padding: 20px 0 20px 0;
 }
 
 .grid:after {
@@ -23,6 +31,7 @@ body {
 [class*='col-'] {
 	float: left;	
 	padding-right: 20px;
+
 
 
 	
@@ -41,16 +50,21 @@ here we took the padding off so it runs to the edge of the page */
 	margin: 10px;
 }
 
+/*columns */
 .col-2-3 {
 	width:66.66%;
-	
 }
 
 .col-1-3 {
 	width: 33.33%;	
-	
-	
+}
 
+.col-1-4 {
+	width: 25%;
+}
+
+.col-1-5 {
+	width: 20%;
 }
 
 .title {
